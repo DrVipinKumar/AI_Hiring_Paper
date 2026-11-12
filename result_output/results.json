@@ -1,0 +1,40 @@
+{
+  "icc": {
+    "pipeline": "HO",
+    "n_candidates_multi_rated": 600,
+    "mean_raters_per_candidate": 2.8933333333333335,
+    "ICC1_single_rater": 0.17337927334835684,
+    "ICC1k_average_rater": 0.37763798911731444
+  },
+  "args": {
+    "data": "testing_data.csv",
+    "outdir": "result_output",
+    "pipelines": [
+      "HO",
+      "AO",
+      "HAC"
+    ],
+    "ref": "HO",
+    "hac": "HAC",
+    "ao": "AO",
+    "group_cols": [
+      "gender",
+      "region"
+    ],
+    "gamma": 1.5,
+    "hourly_rate": 40.0,
+    "ai_cost": 0.05,
+    "human_pipelines": [
+      "HO",
+      "HAC"
+    ],
+    "ai_pipelines": [
+      "AO",
+      "HAC"
+    ],
+    "alpha": 0.15,
+    "beta": 0.4,
+    "n_boot": 2000,
+    "seed": 42
+  }
+}

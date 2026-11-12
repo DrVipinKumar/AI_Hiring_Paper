@@ -1,0 +1,8 @@
+candidate_id,pipeline,score,decision,quality_label,quality_score,gender,region,role_family,reviewer_id,time_minutes,ai_decision,ai_confidence
+C0001,HO,0.62,1,1,0.84,F,Metro,Software,R01,17.5,,
+C0001,HO,0.55,1,1,0.84,F,Metro,Software,R02,19.0,,
+C0001,AO,0.71,1,1,0.84,F,Metro,Software,,0.9,,
+C0001,HAC,0.68,1,1,0.84,F,Metro,Software,R03,3.1,1,0.42
+C0002,HO,0.31,0,0,-0.40,M,Non-metro,Analytics,R01,16.0,,
+C0002,AO,0.46,0,0,-0.40,M,Non-metro,Analytics,,0.8,,
+C0002,HAC,0.52,1,0,-0.40,M,Non-metro,Analytics,R04,6.8,0,0.08

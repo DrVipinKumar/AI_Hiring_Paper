@@ -1,0 +1,8 @@
+DATA QUALITY REPORT
+============================================================
+Rows: 4136 | Unique candidates: 600
+Pipelines found: ['AO', 'AO_unstructured', 'HAC', 'HO', 'RAND']
+Base rate of good hires (quality_label=1): 0.400
+Group sizes for 'gender': {'M': 334, 'F': 266}
+Group sizes for 'region': {'Metro': 359, 'Non-metro': 241}
+Candidates per pipeline: {'AO': 600, 'AO_unstructured': 600, 'HAC': 600, 'HO': 600, 'RAND': 600}
